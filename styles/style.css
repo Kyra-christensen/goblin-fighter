@@ -29,6 +29,10 @@ body {
     
     font-family: 'Titillium Web', sans-serif;
     background-color: var(--color2);
+    background-image: url(../assets/background-img.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+
 }
 
 main {
@@ -37,6 +41,7 @@ main {
     justify-content: center;
     align-items: center;
     margin-bottom: calc(var(--footer-height));
+    
 }
 
 section {
@@ -89,3 +94,19 @@ footer {
     background-color: var(--color3);
     box-shadow: var(--shadow);
 }
+
+.adventurer-stats {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    right: 250px;
+}
+
+.adventurer img {
+    width: 250px;
+}
+
